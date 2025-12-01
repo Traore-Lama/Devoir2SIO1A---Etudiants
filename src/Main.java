@@ -55,6 +55,7 @@ public class Main {
                 case 2 :
                     // Ne pas effacer cette ligne
                     int[] scoresPossibles = new int[]{0,15,30,40};
+                    int scoreJoueur = 0;
 
                     // Voici des exemples de parties que vous pourrez tester
                     String[] partie = new String[]{"A","B","B","A","A","A"};
@@ -63,7 +64,17 @@ public class Main {
                     //String[] partie = new String[]{"B","B","A","A","A","B","A","B","A","A"};
 
                     // A vous de jouer
+                        // parcour le tableau des scores
+                         for (int i = 0; i < scoresPossibles.length; i++)
+                         {
+                             // parcour pour savoir si c'est le joueur A ou B
+                             for (int j = 0; j < partie.length; j++)
+                             {
 
+                             }
+                         }
+                         //Afficher la chaine de caractere Partie
+                         //Comparer le score des joueur pour donner le vainqueur
                     break;
                 case 0 :
                     System.out.println("FIN DU PROGRAMME");
